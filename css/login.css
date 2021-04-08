@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Montserrat:wght@200;400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body{
+	background: url('../file/bg_1.jpg') no-repeat top center;
+	background-size: cover;
+	height: 1000px;
+	color: #8c94ae;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 750px;
+	height: 550px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.wrapper .header{
+	background: #7b5be4;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.header .logo{
+	padding: 15px 30px;
+}
+
+.header .logo p{
+	font-size: 24px;
+	font-weight: 600;
+	font-family: 'Merienda', cursive;
+}
+
+.header .menu ul{
+	display: flex;
+}
+
+.header .menu ul li{
+	margin-right: 1px;
+}
+
+.header .menu ul li a{
+	padding: 22px;
+	width: 120px;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}
+
+.header .menu ul li:hover,
+.header .menu ul li.active{
+	background: #8575e7;
+}
+
+.header .menu ul li:last-child{
+	border-top-right-radius: 3px;
+	margin-right: 0;
+}
+
+.main_container{
+	padding: 50px;
+}
+
+.title{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	color: #0e1935;
+	margin-bottom: 20px;
+}
+
+.content p{
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.form_wrap{
+	width: 350px;
+	margin: 0 auto 30px;
+}
+
+.form_wrap:last-child{
+	margin-bottom: 0px;
+}
+
+.form_wrap label{
+	display: block;
+	color: #0e1935;
+	margin-bottom: 10px;
+	font-weight: 200;
+}
+
+.form_wrap .input_field{
+	position: relative;
+}
+
+.form_wrap .input{
+	border: 1px solid #8c94ae;
+	width: 100%;
+	outline: none;
+	border-radius: 3px;
+	padding: 10px;
+	padding-left: 45px;
+	font-size: 14px;
+	color: #7b5be4;
+}
+
+.form_wrap .input:focus{
+	border: 1px solid #7b5be4;
+}
+
+.form_wrap input[type="submit"]{
+	border: 0;
+	background: #7b5be4;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 3px;
+	outline: none;
+}
+
+.form_wrap input[type="submit"]:hover{
+	background: #8575e7;
+}
+
+.form_wrap .error_msg{
+	margin-top: 10px;
+	color: #ff8471;
+	font-size: 14px;
+}
+
+.form_wrap i{
+	position: absolute;
+	top: 13px;
+	left: 15px;
+	font-size: 16px;
+	color: #7b5be4;
+}
+
+.smiley{
+	width: 200px;
+	margin: 0 auto 20px;	
+	font-size: 200px;
+	text-align: center;
+	color: #0e1935;
+}
+#a10{
+	margin-left: 50%;
+	margin-top: 10%;
+}
